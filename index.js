@@ -4,12 +4,15 @@ const robots = {
 }
 
 async function start() {
-    const content = {}
+    const content = {
+        maximunSentences: 7,
+        searchTerm: 'Michael Jackson'
+    }
 
-    await robots.userInput(content)
+    // await robots.userInput(content)
     await robots.text(content)
 
-    console.log(content)
+    console.log(JSON.stringify(content, null, 4))
 
 }
 
