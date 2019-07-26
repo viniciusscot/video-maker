@@ -1,8 +1,14 @@
-const readline = require('readline-sync')
+const readline = require('readline-sync'),
+    state = require('./state')
 
-async function robot(content) {
+async function robot() {
+    const content = {
+        maximunSentences: 7
+    }
+
     content.searchTerm = await askAndReturnSearchTerm()
     content.prefix = await askAndReturnPrefix()
+    state.save(content)
 
 
     function askAndReturnSearchTerm() {
