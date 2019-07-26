@@ -1,0 +1,25 @@
+{
+  "name": "video-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusscot/video-maker.git"
+  },
+  "author": "Vinicius Scot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusscot/video-maker/issues"
+  },
+  "homepage": "https://github.com/viniciusscot/video-maker#readme",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.16",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}
